@@ -16,10 +16,11 @@ import model.Musica;
 
 public class Controller {
 	
+
 	public static Lista addtoplaylist() throws Exception {
 		
 //		leitura do arquivo 
-		File setlist = new File("C:\\sistemas operacionais i\\setlist.csv");
+		File setlist = new File("C:\\sistemas operacionais i\\TED_20230502_5\\setlist.csv");
 		FileInputStream fluxo = new FileInputStream(setlist);
 		InputStreamReader leitor = new InputStreamReader(fluxo);
 		BufferedReader buffer = new BufferedReader(leitor);
